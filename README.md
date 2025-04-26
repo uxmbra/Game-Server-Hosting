@@ -28,3 +28,5 @@ The server setup is using Pelican Panel on a VPS host which is the only front fa
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Installation
+
+Attempting to update this repo has been a nightmare remotely via visual studio code
