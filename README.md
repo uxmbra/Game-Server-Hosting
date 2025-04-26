@@ -11,7 +11,7 @@ And just because I am a giant nerd who saw the opportunity to do something not m
 
 ### **Setup**
 
-**Machine 1: Cloud VPS (Panel Host / VPN Endpoint)**
+1.  **Machine 1: Cloud VPS (Panel Host / VPN Endpoint)**
     * **Role:** Hosts the public-facing Pelican Panel, N2N Supernode (or acts as an edge endpoint), terminates incoming user/game traffic, forwards necessary traffic over VPN.
     * **Example Specs:**
         * Public IP: `137.209.116.51` (Example IP Address)
@@ -21,10 +21,10 @@ And just because I am a giant nerd who saw the opportunity to do something not m
         * Public Interface: `eth0`
     * **Software:** Pelican Panel, Web Server (Nginx/Caddy/Apache), N2N (Edge/Supernode), `iptables`, `netfilter-persistent`.
 
-**Machine 2: Home Server (Wings Host)**
+2.  **Machine 2: Home Server (Wings Host)**
     * **Role:** Hosts the Pelican Wings daemon and runs the actual game server Docker containers. Connects *only* via the VPN.
     * **Example Specs:**
-        * Internal LAN IP: `10.0.0.X` (Not directly used by Panel/Wings)
+        * Internal LAN IP: `10.X.X.X` (Not directly used by Panel/Wings)
         * Public IP: `173.15.106.166` (Used only for VPN connection establishment, not exposed) (Example IP Address)
         * VPN IP: `10.10.10.2`
         * VPN Interface: `n2n0`
