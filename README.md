@@ -1,6 +1,9 @@
 
 # 🎮 Game Server Hosting 🎮 
 
+> [!WARNING]
+> This setup is still being actively tested in my live environment, you may run into issues I have not encountered yet. feel free to advise me of any errors and I will do my best to troubleshoot and assist.
+
 ## **Overview**
 
 This documentaion serves the purpose of explaining a personal project of mine over the duration of the past months/years.
