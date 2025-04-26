@@ -9,7 +9,7 @@ The goal in mind was a stable, secure, efficent and easy game server hosting set
 
 And just because I am a giant nerd who saw the opportunity to do something not many others have been able to achieve.
 
-### **Setup** [N2N SETUP] (https://github.com/uxmbra/Game-Server-Hosting/blob/0c084b0f7912729ed2f8bd782f4610abb53d108f/N2N%20-%20SETUP.md)
+### **Setup** [N2N SETUP](https://github.com/uxmbra/Game-Server-Hosting/blob/0c084b0f7912729ed2f8bd782f4610abb53d108f/N2N%20-%20SETUP.md)
 
 1.  **Machine 1: Cloud VPS (Panel Host / VPN Endpoint)**
     * **Role:** Hosts the public-facing Pelican Panel, N2N Supernode (or acts as an edge endpoint), terminates incoming user/game traffic, forwards necessary traffic over VPN.
