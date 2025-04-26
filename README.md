@@ -45,8 +45,3 @@ And just because I am a giant nerd who saw the opportunity to do something not m
 [Pelican Panel Discord](https://discord.gg/pelican-panel)
 
 [N2N GitHub](https://github.com/ntop/n2n)
-
-
-### License
-
-[MIT](https://choosealicense.com/licenses/mit/)
